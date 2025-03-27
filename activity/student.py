@@ -13,12 +13,12 @@ class Student:
 
         num_classes = len(self.classes)
         self.length = num_classes
+        
         return num_classes
     
     def summary(self):
 
-        print(f'{self.name} is a {self.level} enrolled in {self.length} classes')
-
+        print(f'{self.name} is a {self.level} enrolled in {len(self.classes)} classes')
 
 
 
